@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="MyResult"
+            android:label="診断結果"
+            android:parentActivityName=".Myform">
+        <!--CTRL + space で上のpackcageで指定したものを.でとってきている。-->
+
+        </activity>
+
     </application>
 
 </manifest>
